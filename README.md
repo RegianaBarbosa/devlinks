@@ -18,9 +18,9 @@ Projeto desenvolvido no curso gratuito Discover promovido pela Rocketseat para e
 
 <br>
 
-<!-- <p align="center">
-  <img alt="projeto DevLinks" src=".github/preview.jpg" width="100%">
-</p> -->
+<p align="center">
+  <img alt="projeto DevLinks" src=".github/preview.png" width="100%">
+</p>
 
 ## 🚀 Tecnologias
 
