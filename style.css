@@ -75,11 +75,12 @@ body * {
   top: 50%;
   z-index: 1;
   transform: translateY(-50%);
+
+  animation: slideBack 0.2s;
 }
 
 .light-theme #switch button {
-  right: 0;
-  left: initial;
+  animation: slideIn 0.2s forwards;
 }
 
 #switch button:hover {
@@ -164,5 +165,24 @@ footer {
 
   .light-theme {
     --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
+
+/* animation */
+@keyframes slideIn {
+  from{
+    left: 0;
+  }
+  to{
+    left: 50%;
+  }
+}
+
+@keyframes slideBack {
+  from{
+    left: 50%;
+  }
+  to{
+    left: 0;
   }
 }
