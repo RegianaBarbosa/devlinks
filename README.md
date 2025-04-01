@@ -22,6 +22,12 @@ Projeto desenvolvido no curso gratuito Discover promovido pela Rocketseat para e
   <img alt="projeto DevLinks" src=".github/preview.png" width="100%">
 </p>
 
+<br>
+
+<p align="center">
+  Veja o projeto finalizado <a href="https://regianabarbosa.github.io/devlinks/">aqui</a>
+</p>
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -34,8 +40,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 O DevLinks é um agregador de links para usar como cartão de visitas online.
-
-<!-- - [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks) -->
 
 ## 🔖 Layout
 
