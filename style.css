@@ -34,9 +34,11 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
+  height: 100vh;
 }
 
 /* profile */
@@ -60,7 +62,6 @@ body * {
   position: relative;
   width: 64px;
   margin: 4px auto;
-
 }
 
 #switch button {
@@ -76,7 +77,7 @@ body * {
   transform: translateY(-50%);
 }
 
-.light-theme #switch button {  
+.light-theme #switch button {
   right: 0;
   left: initial;
 }
@@ -152,4 +153,15 @@ footer {
   text-align: center;
   padding: 24px 0;
   font-size: 14px;
+}
+
+/* media queries */
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light-theme {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
